@@ -2,14 +2,18 @@
 <html>
     <head>
         <title>Testing</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
         <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
         <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
-    <div class="main">
-        <h1>Hello World!</h1>
-        <p>Develop again</p>
-    </div>
+        <div class="main">
+            <h1>Hello World!</h1>
+            <a href="gallery/">Gallery</a>
+                <button id="btn-login" disabled="true" onclick="login()">Log in</button>
+    <button id="btn-logout" disabled="true" onclick="logout()">Log out</button>
+        </div>
+        <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+        <script src="js/app.js"></script>
     </body>
 </html>

@@ -1,0 +1,27 @@
+{
+  "name": "projectapp.currie.com.au",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamish/projectapp.currie.com.au.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamish/projectapp.currie.com.au/issues"
+  },
+  "homepage": "https://github.com/hamish/projectapp.currie.com.au#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
